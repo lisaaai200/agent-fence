@@ -1,0 +1,14 @@
+{
+  "requestId": "GENERATE_AT_SUBMIT_TIME",
+  "projectName": "AgentFence",
+  "leadName": "PENDING_JC",
+  "email": "PENDING_JC",
+  "size": "1",
+  "tracks": ["security", "agents"],
+  "nearAddress": "42b8fa7bc5124e488094cc40ccd092a8eb93488ba868db94a8b2623aa424ccb7",
+  "projectUrl": "https://github.com/lisaaai200/agent-fence",
+  "demoUrl": "PENDING_X_POST_LINK_FROM_JC",
+  "idea": "AI agents that can spend crypto are one prompt-injection away from draining a wallet. AgentFence is an on-chain policy purse on NEAR plus an agent-side wrapper: the human sets per-tx and daily limits, allow/block lists, and a shared reputation feed; the agent receives only a function-call access key scoped to AgentFence (it cannot Transfer NEAR or AddKey). Before every spend the wrapper calls evaluate_receiver (Allow/Warn/Block with reasons). pay() re-checks on-chain — Block always refuses, Warn needs a human. The demo shows a legitimate payment succeeding and a prompt-injected drain attempt being refused without signing. Testnet-ready WASM and 6/6 unit tests ship in the repo. Tracks: AI Security & Defense and Agent Economy.",
+  "consent": false,
+  "_notes": "Do NOT POST until JC confirms leadName, email, consent wording, and provides the X demoUrl. nearAddress is Genie's prize account (never use 7aa5281b…). requestId must be generated once at submit time."
+}

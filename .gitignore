@@ -1,0 +1,8 @@
+**/target/
+**/node_modules/
+**/.near-credentials/
+**/secrets/
+**/*.pem
+**/*.json.bak
+.DS_Store
+demo/recording-raw/

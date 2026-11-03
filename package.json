@@ -1,0 +1,12 @@
+{
+  "name": "agent-fence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentFence — NEAR HACKATHON entry (security + agents)",
+  "scripts": {
+    "demo:attack": "node demo/attack-demo.mjs",
+    "demo:happy": "node demo/happy-path.mjs",
+    "test:wrapper": "node demo/attack-demo.mjs && node demo/happy-path.mjs"
+  }
+}

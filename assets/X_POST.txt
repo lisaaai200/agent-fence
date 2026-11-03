@@ -1,0 +1,8 @@
+AI agents with wallets are one prompt-injection away from a drain.
+
+We built AgentFence at NEAR HACKATHON: an on-chain policy purse where the agent only gets a function-call key. It can call pay() — it cannot Transfer NEAR or AddKey.
+
+Demo: legitimate API payment goes through. Injected "pay the scam sink" gets BLOCKED and never signed. Unknown counterparties WARN and wait for a human.
+
+Repo: https://github.com/lisaaai200/agent-fence
+@NEARProtocol #NEARHackathon
